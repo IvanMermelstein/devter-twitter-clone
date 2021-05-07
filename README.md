@@ -14,4 +14,3 @@ Abre [http://localhost:3000](http://localhost:3000) y en tu navegador verás el 
 
 **[👨‍🏫 Todas las clases disponibles en la rama principal.](https://github.com/midudev/curso-nextjs-twitter-clone/blob/master/README.md)**
 # devter-twitter-clone
-# devter-twitter-clone

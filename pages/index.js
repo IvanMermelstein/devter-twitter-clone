@@ -5,7 +5,7 @@ import { colors } from 'styles/theme'
 import Button from 'components/Button'
 import GitHub from 'components/Icons/GitHub'
 import { loginWithGitHub, onAuthStateChange } from '../firebase'
-import Avatar from 'components/Avatar/Index'
+import Avatar from 'components/Avatar'
 
 export default function Home() {
 
@@ -39,7 +39,7 @@ export default function Home() {
                 <h2>Talk about development<br /> with developers 👨‍💻👩‍💻</h2>
                 <div>
                     {
-                        user === undefined &&
+                        user === null &&
                         <Button onClick={handleClick}>
                             <GitHub fill={'white'} width={24} height={24} />
                             Login with GitHub
